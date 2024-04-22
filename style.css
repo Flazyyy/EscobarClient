@@ -52,16 +52,59 @@ body {
 }
 
 
-.buton {
-    color: #fff;
-    transition: background-color 0s linear;
-    border-radius:5px ;
-    text-decoration: none;
-    margin-right: 15px;
-    margin-left: 15px;
-    padding-right: 10px;
-    padding-left: 10px;
-    
+@media only screen and (max-width: 600px), (min-width: 1024px) {
+  .header-text {
+      font-size: 23px; /* Default font size */
+      margin-top: 40px;
+      margin-left: 20px;
+      color: #ffffff;
+      border-right: 1px solid #8b8b8b;
+      padding-right: 20px;
+      text-align: center; /* Center text for all screen sizes */
+  }
+
+  .buton {
+      color: #fff;
+      transition: background-color 0s linear;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-right: 15px;
+      margin-left: 15px;
+      padding-right: 10px;
+      padding-left: 10px;
+  }
+
+  /* Adjustments for phones */
+  @media only screen and (max-width: 600px) {
+      .header-text {
+          font-size: 18px; /* Adjust font size for phones */
+          margin-left: 10px; /* Adjust margins for phones */
+          padding-right: 10px; /* Adjust padding for phones */
+      }
+
+      .buton {
+          margin-right: 5px; /* Adjust margins for phones */
+          margin-left: 5px; /* Adjust margins for phones */
+          padding-right: 5px; /* Adjust padding for phones */
+          padding-left: 5px; /* Adjust padding for phones */
+      }
+  }
+
+  /* Adjustments for larger screens */
+  @media only screen and (min-width: 1024px) {
+      .header-text {
+          font-size: 28px; /* Adjust font size for larger screens */
+          margin-left: 50px; /* Adjust margins for larger screens */
+          padding-right: 30px; /* Adjust padding for larger screens */
+      }
+
+      .buton {
+          margin-right: 20px; /* Adjust margins for larger screens */
+          margin-left: 20px; /* Adjust margins for larger screens */
+          padding-right: 15px; /* Adjust padding for larger screens */
+          padding-left: 15px; /* Adjust padding for larger screens */
+      }
+  }
 }
 
 
