@@ -1,0 +1,198 @@
+body {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background: url('https://top-fon.com/uploads/posts/2021-07/1627045626_8-p-rozovii-fon-mainkraft-9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px); /* Размытие фона */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between ;
+    background: url(https://top-fon.com/uploads/posts/2021-07/1627045626_8-p-rozovii-fon-mainkraft-9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    margin-left: 40px;
+    margin-top: 40px;
+    
+}
+
+.header-logo img {
+    height: 90px;
+    margin-left: 350px; /* Добавим небольшой отступ справа */
+    margin-top: 40px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.header-text {
+    font-size: 23px;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #ffffff;
+    border-right: 1px solid #8b8b8b;
+    padding-right: 20px;
+   
+
+}
+
+
+.buton {
+    color: #fff;
+    transition: background-color 0s linear;
+    border-radius:5px ;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+
+.buton:hover {
+    background-color: rgb(194, 194, 194);
+    color: white; /* Черный текст при наведении */
+    box-shadow: 0 0 10px rgb(199, 199, 199);
+    transition: all 0.3s ease;
+}
+
+.support-button {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white; /* Белый текст */
+    margin-left:35px; /* Паддинг вокруг текста */
+    margin-top: 35px;
+    border: none; /* Без границ */
+    border-radius: 5px; /* Скругленные углы */
+    transition: all 0.3s ease; /* Плавный переход для всех свойств */
+    text-decoration: none; /* Убрать подчеркивание текста */
+    display: inline-table; /* Для применения паддинга */
+    cursor: pointer; /* Курсор в виде руки при наведении */
+    
+  }
+  
+  .support-button:hover {
+    background-color: rgb(194, 194, 194);
+    color: white; /* Черный текст при наведении */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); /* Светящаяся подсветка */
+  }
+
+
+  .buy-button {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white; /* Белый текст */
+    margin-left:35px; /* Паддинг вокруг текста */
+    margin-top: 35px;
+    border: none; /* Без границ */
+    border-radius: 5px; /* Скругленные углы */
+    transition: all 0.3s ease; /* Плавный переход для всех свойств */
+    text-decoration: none; /* Убрать подчеркивание текста */
+    display: inline-table; /* Для применения паддинга */
+    cursor: pointer; /* Курсор в виде руки при наведении */
+  }
+
+  .buy-button:hover {
+    background-color: rgb(194, 194, 194);
+    color: white; /* Черный текст при наведении */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); /* Светящаяся подсветка */
+  }
+
+
+
+.button {
+    padding: 13px 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+    margin-left: 250px;
+    margin-top: 30px;
+    text-decoration: none;
+ }
+
+.button:hover {
+    background-color: rgb(62, 62, 62);
+ }
+
+
+ .history {
+    margin-top: 186px;
+    padding-bottom: 339px;
+ }
+
+
+ .history-title {
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 350px;
+    color: #fff;
+  }
+
+
+  
+
+.history-desc {
+    color:#fff;
+    font-size: 20px;
+    width: 444px;
+    text-align: center;
+    margin-left: 350px;
+    font-weight: 400;
+    
+  }
+
+
+button {
+    padding-bottom: 200px;
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+    margin-left: 500px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
+}
+
